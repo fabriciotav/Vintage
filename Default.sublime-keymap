@@ -1,5 +1,5 @@
 [
-	{ "keys": ["escape"], "command": "exit_insert_mode",
+	{ "keys": ["j", "j"], "command": "exit_insert_mode",
 		"context":
 		[
 			{ "key": "setting.command_mode", "operand": false },
@@ -7,7 +7,7 @@
 		]
 	},
 
-	{ "keys": ["escape"], "command": "exit_visual_mode",
+	{ "keys": ["j", "j"], "command": "exit_visual_mode",
 		"context":
 		[
 			{ "key": "setting.command_mode"},
